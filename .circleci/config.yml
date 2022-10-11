@@ -18,7 +18,8 @@ jobs:
     steps:
       - checkout
       - run: |
-          npm i
+          # using clean-install
+          npm ci
 
 workflows:
   main:
